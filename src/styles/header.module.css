@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+  width: min(auto, 100%);
+  backdrop-filter: blur(10px);
+  & h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  & ul {
+    & li {
+      font-family: "MuseoModerno", sans-serif;
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+  }
+}
